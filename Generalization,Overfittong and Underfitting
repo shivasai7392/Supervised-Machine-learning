@@ -1,0 +1,20 @@
+1.Building a model that is too complex for the amount of
+information we have is called overfitting.
+
+
+2.Choosing
+too simple a model is called underfitting.
+
+3.The more complex we allow our model to be, the better we will be able to predict on
+the training data. However, if our model becomes too complex, we start focusing too
+much on each individual data point in our training set, and the model will not gener‐
+alize well to new data.
+
+
+4.There is a sweet spot in between that will yield the best generalization performance.
+This is the model we want to find.
+
+
+
+The trade-off between overfitting and underfitting is illustrated in Fig 1
+
