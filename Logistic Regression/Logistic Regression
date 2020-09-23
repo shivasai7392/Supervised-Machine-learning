@@ -1,0 +1,22 @@
+It is used to solve a classification problem
+
+mainly a Binomial Classification problem
+
+we can solve this problem using linear regression but there will be some erros
+
+refer fig 2
+
+so we are converting this linear regression line into a sigmoid function
+
+
+logistic regression tries to find the 
+	N
+max of Sigma Yi * (mXi)
+	i = 1
+
+because to reduce the cost of an outlier
+		N
+we use max of Sigma f(Yi * (mXi))
+		i = 1
+
+where f(z)= 1/1+e^(-z)

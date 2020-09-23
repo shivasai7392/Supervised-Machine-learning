@@ -1,0 +1,30 @@
+Cost function(J(n)) = 1/2n * (Sigma (Ycap - Y)**2
+                            i=1 to n)
+                            
+                            
+                            
+Gradient Descent 
+                        |
+                        |
+                        |
+                        |x                x
+                        | x              x
+                        |  x            x
+                        |   x          x
+                        |    x        x
+                        |     x      x
+                        |      x    x
+                        |       x  x
+                        -________x__________________________
+                                 global
+                                 minima
+                                 
+ Algorithm uses convergence theoram to draw a gradient descent and find the global minima
+ 
+ 
+ Convergence theoram =>   m = m-(slope of gradient descent)*alpha
+ 
+ 
+ alpha - is learning rate which will be very small (0.001)
+ 
+ when convergence theaoram reaches the global minima the slope of the gradient descent will be 0 and so it knows that this m is used for y = mx + c

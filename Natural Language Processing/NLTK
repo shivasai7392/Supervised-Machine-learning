@@ -1,0 +1,25 @@
+Bag of words model
+
+
+it was the best of times
+it was the worst of times
+it was the age of wisdom
+it was the age of foolishness
+
+each sentence is  a document
+
+all the documents together is called corpus
+
+so Vocabulary of above corpus is
+
+it, was, the, best, of, times, worst, age, wisdom, foolishness
+
+document vextor for document 1 - [1,1,1,1,1,1,0,0,0,0]
+
+
+
+Text cleaning :
+  
+  removal of punctuation
+  removal of stop words
+  removal of steming of the words

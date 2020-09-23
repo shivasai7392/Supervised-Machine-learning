@@ -1,0 +1,67 @@
+Regression Analysis:
+
+1.Simple linear regression
+2.Least square method
+3.Coefficient of Determination
+4.Testing of the Significance or Evaluation metrices
+5.Assumptions of linear regression
+6.practical example on a Dataset
+
+
+1.Simple linear regression
+
+y = mx + c  (m - slope and c is Intercept)
+
+    Sigma(Xi - Xmean)(Yi - Ymean)
+m = _______________________________
+    
+    Sigma(Xi - Xmean)^2
+    
+
+c = Ymean - m*Xmean
+
+2.Least square method
+
+linear regression finds gives m when Cost function of all the m's is minimum
+
+                      1
+Cost function(J(m)) = _  * Sigma(Y - Ycap)^2
+                      
+                      2*N
+  cost function for linear regression is also called as least square method
+  
+3.Coefficient of Determination
+
+the best fit line always passes throug the mean of X
+
+
+SSR (Sum of square due to regression) = Sigma(Ycap - Ymean)^2
+
+SSE (Sum of squares of error) = Sigma(Yi - Ycap)^2
+
+SST (Sum of squares Total) = SSR + SSE
+
+Coefficient of Determination/R squared = SSR/SST(Always lies in between 0 and 1, more towards 1 best fit the line is around the data points)
+
+Adjusted R squared = 1 - [((1-R^2)(N -1))/N-K-1]   {k is no of features}
+
+4.Testing of the Significance or Evaluation metrices
+
+a.Mean Absolute Error = 1/N * Sigma|Yi - Ycap|
+
+b.Mean Square Error = 1/N * Sigma(Yi - Ycap)^2
+
+c.Root Mean Square Error = (1/N * Sigma(Yi - Ycap)^2) ^ 1/2
+
+5.Assumptions of linear regression
+
+a.Linear Distribution : Scatter plot (Yes)
+
+b.presence of Normality : Histograms (Yes)
+
+c.MultiCollinearity : corr of features heatmap (No)
+
+d.AutoCorrelation : line plot or gem plot (No)
+
+e.Homoscedasticity : 
+

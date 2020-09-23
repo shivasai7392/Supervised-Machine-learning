@@ -1,0 +1,29 @@
+Ridge will reduce the overfitting problem of simple lenear regression
+
+
+by residual square function == 
+
+
+                    min(    Cost function (J(n)) + lambda * (slope of the line)**2    )
+                    
+                    
+                    lambda - 0 to any positive number
+                    
+                    
+                    it is selected by cross validation
+                    
+                    
+                    
+                    
+Lasso Regression will do the same but it will also tell us which features are important
+
+y = m1x1 + m2x2 + m3x3 + m4x4
+
+by residual square function == 
+
+
+                    min(    Cost function (J(n)) + lambda * magnitude of (m1 + m2 + m3 + m4)    )    
+                    
+                    
+                    when finding the minimum of above function then which m1 , m2 .. are less will be removed and only x3 and x4 features are taken into consideration
+ 
