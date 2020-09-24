@@ -1,0 +1,24 @@
+One Sample proportion Test
+
+when we are testing null hypothesis and alternate hypothesis regarding one categorical feature then we test it with One sample propportion test
+
+Chi sqare Test
+
+when we are testing null hypothesis and alternate hypothesis regarding two categorical features then we test it with Chi square test
+
+T Test
+
+when we are testing null hypothesis and alternate hypothesis regarding one continous numerical features then we test it with T test
+
+
+Correlation Test
+
+when we are testing null hypothesis and alternate hypothesis regarding two continous numerical features then we test it with T test
+
+
+Anova Test
+
+when we are testing null hypothesis and alternate hypothesis regarding two categorical and one continous numerical features then we test it with Anova test
+
+
+for the above tests if the p value (Significance value ) less than 0.05 then Ho(null hypothesis) is rejected

@@ -1,0 +1,36 @@
+Evaluates 2 or more mutual exclusive statements
+
+
+Steps  :  
+
+1.Make initial assumption (Ho)
+
+2.Collect Data  (Evidence)
+
+3.Analyse Data to satisfy the initial assumption (Ho)(Null Hypothesis) otherwise it will satisfy alternate Hypothesis
+
+
+
+____________________
+
+
+
+Point 1 :  now we know null hythosis is true but no evidence to proove the n alternate hypothesis is selected and null hypothesis is rejected
+ 
+Point 2 :  now we know alternate hypothesis is true but no enough evidence to proove then null hypotheseis is selected and alternate hypotheseis is rejected
+
+                      Ho            H1
+                      
+     Do not Reject    OK           Type2 Error
+     
+     
+     Reject           Type1 Error    OK
+     
+     
+     
+     Point 1 is Type1 Error
+     
+     Point 2 is Type2 Error
+     
+     
+     

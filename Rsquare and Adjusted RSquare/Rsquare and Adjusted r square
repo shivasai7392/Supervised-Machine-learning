@@ -1,0 +1,25 @@
+   
+   
+   R^2   =  1  -  Sigma(Yi - Ycap)^2
+                  __________________
+                  
+                  Sigma(Yi - Ymean)^2
+                  
+R^2 is for goodness of the line
+
+\\ if no of features increases R^2 will be incresed it does not penalises the attributes
+
+so adjusted R^2
+
+
+
+adjusted R^2   = 1  - (1-R^2)(N-1)
+                      ____________
+                      
+                         N-P-1
+                         
+                         N = Total observations
+                         
+                         P = Total independent features
+                         
+                         
