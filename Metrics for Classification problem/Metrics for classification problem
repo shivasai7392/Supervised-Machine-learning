@@ -1,0 +1,60 @@
+We have a classification problem statement 
+
+                                    TYPES
+                                    
+                                    
+                    CLASS LABELS                PROBABILITY
+                    
+                    default probability         Here threshold will be set like 0.3,0.4 e
+                    0.5                         then we will determine if less than 0.3 then output is class A otherwise class B
+                    
+                    
+                    
+1. Confusion matrix
+
+
+                       1       0      Actual
+                       
+               1       TP      FP (Type1 error)
+
+
+ Predicted     0       FN      TN
+                  (Type2 Error)
+                  
+                  
+                  
+                  Accuracy = TP + TN
+                             _______
+                             
+                             TP+TN+FP+FN
+                             
+                      
+                  Recall  =   TP
+                             _____        (TPR,Sensitivity) 
+                             
+                             TP + FN
+                             
+                             
+                  Precission  = TP
+                               ______     (+ve prediction value)
+                               
+                               TP + FP
+                               
+                               
+                  F_Beta_score    =  (1+Beta^2)(Precission * Recall)
+                                      ______________________________
+                                    
+                                         Precission + Recall
+                                         
+                                         
+                            if FP and FN are same importance then Beta = 1
+                            
+                            if FP is more important than FN Then focuss on Precission and decrease the Beta value
+                            
+                            if FN is more important then FP Then focus on Recall and increase the Beta value
+                            
+                            
+                                  
+                             
+                             
+                             

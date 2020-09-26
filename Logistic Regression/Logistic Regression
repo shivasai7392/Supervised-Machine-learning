@@ -20,3 +20,15 @@ we use max of Sigma f(Yi * (mXi))
 		i = 1
 
 where f(z)= 1/1+e^(-z)
+
+
+We can also solve multiclassification problem using logistic regression
+
+
+the model will give probabilities of all the output classes for an observation and the highest probality class will be given as prediction for that observation
+
+to do this in python
+
+there is a parameter in LogistionRegression as multiclass = "ovr"
+
+ovr means one Vs rest

@@ -1,0 +1,13 @@
+This metrics is used for classification problem
+
+ROC is the curve of tunction 
+
+f(threshold) = (TPR,FPR)
+
+TPR = TP /(TP + FN)
+
+FPR = Fp /(FP + TN)
+
+and the area under the curve of roc is AUC 
+
+if AUC increases then our model is good for the classification

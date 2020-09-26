@@ -1,0 +1,29 @@
+Ensemble Techniques
+
+1.Bagging(Bootstrap Aggregation)
+
+2.Boosting
+
+
+1.Bagging
+
+multiple models will be trained using the samples of main train data
+
+and the for test data it will go through each of the model and output is selected by majority of votes for a class by voting classifier
+
+
+2.random forest classifier
+
+same bagging comcept but the models are decission trees
+
+sampling will row wise and also feature wise
+
+test data classification is by voting classifier
+
+3.random forest regressor
+
+same bagging comcept but the models are decission trees
+
+sampling will row wise and also feature wise
+
+test data output will be mean of all the models output
