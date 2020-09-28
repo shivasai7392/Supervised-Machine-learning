@@ -1,0 +1,11 @@
+Eucledean :
+
+P1(x1,y1)                 P2(x2,y2)
+
+
+ED  =  square root((x2-x1)^2+(y2-y1)^2)
+
+
+Manhattan :
+
+MD = abs(x2-x1) + abs(y2-y1)

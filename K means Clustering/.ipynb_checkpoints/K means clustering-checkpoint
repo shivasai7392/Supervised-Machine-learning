@@ -1,0 +1,25 @@
+Step 1 : Input no of clusters (K)
+
+Step 2 :Calculate centroid
+
+Step 3 :Calculate distance
+
+Step 4 :Group based on Minimum distance
+
+Whenever a new datapoint is added in the cluster the centroid will be updated as the mean of the X and Y
+
+
+What is the optimal value of K
+
+This k means clustering algorithm uses a statistical technique known as WCV (Within cluster variation) to deduce the optimal value of k
+
+        K    n
+WCV = Sigma Sigma (Distance of point j from its closest centroid)^2   {n - no of observations}
+        k=1  j=1
+       
+if k = 1 then WCV will be the largest
+
+if k = n then WCV will be least (0)
+
+When K inreases WCV will be decrease exponentially
+for a particular value of k the decrease in WCV will be linear
